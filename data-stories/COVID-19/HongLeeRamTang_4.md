@@ -24,20 +24,21 @@ Here is our youtube link: https://www.youtube.com/watch?v=QiQ2_Es3g3A&feature=yo
 
 # Downloading the data
 
-## Party of Governor
-Party of the Governor per state as of 2020. 'R' indicates Republican and 'D' indicates Democrate. Located in the [gov_v_state.csv](https://github.com/maddyrlee/storytelling-with-data/blob/master/assignments/assignment%204/csvs/gov_v_state.csv) file. Source: https://en.wikipedia.org/wiki/List_of_United_States_governors
+We created multiple datasets. The information includes data from multiple Asian and Hispanic ethnicities recorded in multiple cities across the U.S. English proficiency across generations is recorded as well as the population of that ethnicity in each city. 
+Data source: https://ccis.ucsd.edu/_files/wp111.pdf
 
-## Date of State Reopening
-Reported date of each state reopening located in the [states-reopening.csv](https://github.com/maddyrlee/storytelling-with-data/blob/master/assignments/assignment%204/csvs/state-reopenings.csv) file. Source: https://www.cnn.com/interactive/2020/us/states-reopen-coronavirus-trnd/
-
-## Local Businesses Closed
-COVID-19 impact on percent local businesses open per state located in the [businessdata.csv](https://github.com/maddyrlee/storytelling-with-data/blob/master/assignments/assignment%204/csvs/businessdata.csv) file. Sources: https://joinhomebase.com/data/covid-19/ 
-
-## COVID-19 Cases
-COVID-19 cases and deaths in each state from 1/21/2020 to present. Source: https://github.com/nytimes/covid-19-data/raw/master/us-states.csv
-
-## Age Distribution of COVID-19 Cases
-Age distribution of COVID-19 cases per state and total population per state. Source: https://raw.githubusercontent.com/veltman/state-population-by-age/master/2010.csv
+## Overall language
+English proficiency across three generations of multiple Asian and Hispanic ethnicities. [out%201.csv] (https://raw.githubusercontent.com/jaeshong/bob-the-weasel/master/out%201.csv)
+## Asian popuatlion
+Asian population in tested cities in 2004. [area_vs_asian_population.csv](https://raw.githubusercontent.com/jaeshong/bob-the-weasel/master/area_vs_asian_population.csv)
+## Hispanic population
+Hispanic population in tested cities in 2004. [area_vs_hispanic_population.csv](https://raw.githubusercontent.com/jaeshong/bob-the-weasel/master/area_vs_hispanic_population.csv)
+## Asian language speakers
+English proficiency across three generations of Asians. [asian_generational_language_statistics.csv](https://raw.githubusercontent.com/jaeshong/bob-the-weasel/master/asian_generational_language_statistics.csv)
+## Hispanic language speakers
+English proficiency across three generations of Hispanics. [hispanic_generational_language_statistics.csv]( https://raw.githubusercontent.com/jaeshong/bob-the-weasel/master/hispanic_generational_language_statistics.csv)
+## County FIPS
+County FIPS. [ZIP-COUNTY-FIPS_2012-06.csv](https://raw.githubusercontent.com/jaeshong/bob-the-weasel/master/ZIP-COUNTY-FIPS_2012-06.csv)
 
 # Running the code
 
@@ -47,7 +48,7 @@ Open the [HongLeeRamTang_Assignment 4.ipynb]() file. Then run each line of code.
 You can contribute too!
 
 ### We couldn't investigate every factor that could explain why certain states were impacted more financially than others.
-- Find more datasets of possible factors to potentially explain why some states were impacted more.
+- Find more datasets of possible factors to potenti`ally explain why some states were impacted more.
 - Examine the differences in how small vs. large businesses were affected.
 - What type of businesses were impacted more than others?
 - What are more factors that could affect Vermont that we did not consider?
